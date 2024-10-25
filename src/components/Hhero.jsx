@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom';
 
 const Hhero = () => {
   return (
-    <div className="relative bg-gray-900 h-screen  overflow-hidden">
+    <div className="relative bg-gray-900 h-screen z-0 overflow-hidden">
       {/* Background Image */}
       <div
         className="absolute inset-0 bg-cover bg-center"
